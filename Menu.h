@@ -5,7 +5,7 @@
 
 using std::string;
 using std::vector;
-const int MAXCOUNT = 20;
+
 struct menuItem
 {
     void(*func)();
@@ -14,7 +14,7 @@ struct menuItem
 class Menu
 {
 private:
-    //menuItem mi[MAXCOUNT];
+    
     vector <menuItem> mi;
     int count;
     void runSelection();
