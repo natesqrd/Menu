@@ -1,8 +1,10 @@
 #ifndef MENU
 #define MENU
 #include <string>
+#include <vector>
 
 using std::string;
+using std::vector;
 const int MAXCOUNT = 20;
 struct menuItem
 {
@@ -12,7 +14,8 @@ struct menuItem
 class Menu
 {
 private:
-    menuItem mi[MAXCOUNT];
+    //menuItem mi[MAXCOUNT];
+    vector <menuItem> mi;
     int count;
     void runSelection();
 public:

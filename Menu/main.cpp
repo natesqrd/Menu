@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Integer.h"
 #include "Double.h"
+#include "Menu.h"
 
 using namespace std;
 
