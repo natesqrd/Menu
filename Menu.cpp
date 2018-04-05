@@ -12,12 +12,11 @@ Menu::Menu()
 }
 void Menu::addMenu(string desc, void (*f)())
 {
-    if(count < MAXCOUNT)
-    {
+    
         this->mi[count].func = f;
         this->mi[count].descript = desc;
-        count++;
-    }
+        
+    
 }
 void Menu::runMenu()
 {
